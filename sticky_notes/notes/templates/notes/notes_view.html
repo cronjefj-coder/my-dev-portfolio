@@ -1,0 +1,50 @@
+<!-- notes/templates/notes/notes_view.html -->
+{% extends 'base.html' %}
+{% block title %}
+  Sticky Notes
+{% endblock %}
+
+{% block content %}
+<div class="container mt-4">
+  <div class="d-flex justify-content-between align-items-center mb-4">    
+    <p class="text-black">
+      Welcome to the sticky notes app. To create a sticky note, click
+      on the Add Note button. To edit a note, click on the note title.
+    </p>
+    <a href="{% url 'notes_create' %}" class="btn btn-primary mb-3">
+      Add Note
+    </a>
+  </div>
+
+  <div class="row g-4">
+    {% for note in notes %}
+
+    <div class="col-md-6 col-lg-3">
+      <div class="card shadow-sm h-100 sticky-note">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{% url 'notes_detail' pk=note.pk %}" class="text-decoration-none text-reset">{{ note.title }}</a>
+          </h5>
+          <p class="card-text">
+            {{ note.content|truncatewords:30 }}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    {% empty %}
+    <div class="col-12">
+      <div class="alert alert-info">
+        No notes to display. Create your first note.
+      </div>
+    </div>
+
+    {% endfor %}
+
+  </div>
+</div>
+
+{% endblock %}
+
+    
+

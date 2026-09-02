@@ -1,0 +1,35 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <!-- FIXED: Changed 'inital-scale' to 'initial-scale' -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      {% block title %}Sticky Notes{% endblock title %}
+    </title>
+    
+    <!-- Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="{% static 'notes/styles.css' %}" />
+  </head>
+  <body>
+    <header class="py-4 border-bottom text-white" style="background-color: #6f42c1;">
+      <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between text-center text-md-start">
+        {% block header %}
+          <a href="/" class="fs-3 fw-bold text-white text-decoration-none">Sticky Notes</a>
+        {% endblock header %}
+      </div>
+    </header>
+
+    <main class="container my-5">
+      {% block content %}
+      {% endblock content %}
+    </main>
+
+    <!-- Bootstrap JS Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
+
+

@@ -1,0 +1,15 @@
+.card.sticky-note {
+    background-color: rgb(110, 110, 242);
+    border: none;
+    border-radius: 12px;
+}
+
+.sticky-note .card-title {
+    font-weight: bold;
+}
+
+.sticky-note .card-body {
+    min-height: 140px;
+}
+
+
