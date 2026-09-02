@@ -1,0 +1,13 @@
+admin, Register Users with task_manager.py, Use task_manager.py to add the usernames and passwords for all team members that will be using this program., 10 Oct 2019, 20 Oct 2019, No
+admin, Assign initial tasks, Use task_manager.py to assign each team member with appropriate tasks, 10 Oct 2019, 25 Oct 2019, No
+jaco, Enhance program, Add final features to the Task Manager program, 21 Jun 2026, 23 Jun 2026, Yes
+jaco, Test task, This is a test task, 21 Jun 2026, 25 Jun 2026, No
+andrea, Interview, Complete the interview today @ 09h00, 22 Jun 2026, 22 Jun 2026, Yes
+admin, delete task, please delete task for testing purposes, 24 Jun 2026, 25 Jun 2026, No
+jaco, cooking, do the cooking on Friday, 24 Jun 2026, 26 Jun 2026, No
+rodney, Beta testing, Test functionality of task manager program, 29 Jun 2026, 30 Jun 2026, Yes
+children, cleaning, clean your rooms, 29 Jun 2026, 01 Jul 2026, No
+admin, reporting, generate the reports for end of month., 29 Jun 2026, 30 Jun 2026, No
+jaco, add reporting function, add reporting and display statistics functions for task manager program, 29 Jun 2026, 29 Jun 2026, No
+andrea, testing, please test task manager program functions., 29 Jun 2026, 30 Jun 2026, No
+rodney, another test, confirm addition of tasks works well, 29 Jun 2026, 29 Jun 2026, Yes

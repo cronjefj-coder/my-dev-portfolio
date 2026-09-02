@@ -1,0 +1,8 @@
+Total users, 5
+Total tasks, 13
+User, Tasks per user, % User tasks, % Completed, % Incomplete, % Overdue
+admin, 4, 30.77, 0.0, 100.0, 100.0
+jaco, 4, 30.77, 25.0, 75.0, 75.0
+andrea, 2, 15.38, 50.0, 50.0, 50.0
+rodney, 2, 15.38, 100.0, 0.0, 0.0
+children, 1, 7.69, 0.0, 100.0, 0.0

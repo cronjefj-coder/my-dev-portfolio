@@ -1,0 +1,5 @@
+admin, adm1n
+jaco, petrus
+andrea, jaco123
+rodney, 1234
+children, chores
